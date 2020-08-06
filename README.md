@@ -8,8 +8,8 @@
 
 ### Estado del código
 
-[![Build Status](https://travis-ci.org/gusguma/template-microservice-gateway.svg?branch=develop)](https://travis-ci.org/gusguma/template-microservice-user)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.gusguma%3Atemplate-microservice-gateway&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.gusguma%3Atemplate-microservice-eureka-server)
+[![Build Status](https://travis-ci.org/gusguma/template-microservice-gateway.svg?branch=develop)](https://travis-ci.org/gusguma/template-microservice-gateway)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.gusguma%3Atemplate-microservice-gateway&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.gusguma%3Atemplate-microservice-gateway)
 
 ### Tecnologías necesarias
 * Java

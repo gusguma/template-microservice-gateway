@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ApiTestConfig
-public class SystemResourceIT {
+class SystemResourceIT {
 
     @Autowired
     private WebTestClient webTestClient;

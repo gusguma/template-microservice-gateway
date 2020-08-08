@@ -26,8 +26,6 @@ spring:
           uri: http://localhost:8701/
           predicates:
             - Path=/users/**
-
-
 # Eureka Server
 eureka:
   client:

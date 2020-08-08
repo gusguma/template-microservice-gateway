@@ -1,0 +1,35 @@
+# Application info
+application:
+  name: @project.artifactId@
+build:
+  version: @project.version@
+  timestamp: @maven.build.timestamp@
+spring:
+  # Application Name
+  application:
+    name: @project.artifactId@
+  # Logs in color
+  output:
+    ansi:
+      enabled: always
+  # Profile Active
+  profiles:
+    active: "dev"
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        # Users Service
+        - id: template-microservice-user
+          uri: http://localhost:8701/
+          predicates:
+            - Path=/users/**
+
+
+# Eureka Server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8700/eureka/
